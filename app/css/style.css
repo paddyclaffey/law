@@ -1,0 +1,10 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+content {
+  flex: 1;
+}
+footer {
+  height: 100px;
+}
