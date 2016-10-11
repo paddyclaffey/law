@@ -3,7 +3,7 @@ app.component('header', {
         headerMessage: '@',
     },
 
-    templateUrl: './header/header.html',
+    templateUrl: 'app/header/header.html',
 
     // The controller that handles our component logic
     controller: [

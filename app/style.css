@@ -1,0 +1,12 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+content {
+  flex: 1;
+}
+footer {
+  height: 100px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQUE7RUFDQSxzQkFBQTs7QUFFRjtFQUNFLE9BQUE7O0FBRUY7RUFDRSxhQUFBIiwic291cmNlc0NvbnRlbnQiOlsiLm1haW4tY29udGFpbmVyIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbn1cbmNvbnRlbnQge1xuICBmbGV4OiAxO1xufVxuZm9vdGVyIHtcbiAgaGVpZ2h0OiAxMDBweDtcbn1cbiJdLCJmaWxlIjoic3R5bGUuY3NzIn0= */

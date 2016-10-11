@@ -2,7 +2,7 @@ app.component('answer', {
     bindings: {
     },
 
-    templateUrl: './answer/answer.html',
+    templateUrl: 'app/answer/answer.html',
     
     controllerAs: '$ctrl',
 
