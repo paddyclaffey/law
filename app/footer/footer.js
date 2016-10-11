@@ -1,7 +1,7 @@
 app.component('footer', {
     bindings: {},
 
-    templateUrl: './footer/footer.html',
+    templateUrl: 'app/footer/footer.html',
     
     controllerAs: '$ctrl',
 

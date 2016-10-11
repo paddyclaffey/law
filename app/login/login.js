@@ -2,7 +2,7 @@ app.component('login', {
     bindings: {
     },
 
-    templateUrl: './login/login.html',
+    templateUrl: 'app/login/login.html',
     
     controllerAs: '$ctrl',
 
