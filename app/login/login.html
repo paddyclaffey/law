@@ -1,1 +1,7 @@
 <h3>{{$ctrl.message}}</h3>
+<form>
+  First name: <input ng-model="$ctrl.fname" type="text" placeholder="{{$ctrl.placeholderfname}}"><br>
+  Last name: <input ng-model="$ctrl.lname" type="text" placeholder="{{$ctrl.placeholderlname}}"><br>
+  <button ng-click="$ctrl.myfunction()" value="Submit">
+  </button>
+</form>

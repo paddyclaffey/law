@@ -1,7 +1,7 @@
 var app = angular.module('StartedProject', [
     "ngRoute"
 ])
-   .controller('starterProjectController', function($scope) {
+   .controller('controller', function($scope) {
        $scope.greeting = "Hello World";
 });
 
