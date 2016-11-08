@@ -1,8 +1,18 @@
 <div class="navbar navbar-default">
+    <div class="header-user-details">
+        <div ng-if="$ctrl.userDetails">
+            <p>Welcome {{$ctrl.userDetails.fName}} <a ng-click="$ctrl.logOut()">Log Out</a></p>
+        </div>
+        <div ng-if="!$ctrl.userDetails">
+            <a href="#login">login</a>
+        </div>
+    </div>
+    </div>
     <div class="navbar-header">
         <h2>{{$ctrl.headerMessage}}</h2>
     </div>
-    <a href="#home">home</a>
-    <a href="#answer">answer</a>
-    <a href="#login">login</a>
+    <a href="#home">Home</a>
+    <a href="#answer">Answer</a>
+    <a href="#login">Login</a>
+    <a href="#profile">Profile</a>
 </div>

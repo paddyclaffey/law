@@ -1,7 +1,33 @@
-<h3>{{$ctrl.message}}</h3>
-<form>
-  First name: <input ng-model="$ctrl.fname" type="text" placeholder="{{$ctrl.placeholderfname}}"><br>
-  Last name: <input ng-model="$ctrl.lname" type="text" placeholder="{{$ctrl.placeholderlname}}"><br>
-  <button ng-click="$ctrl.myfunction()" value="Submit">
-  </button>
-</form>
+<div class="login-container">
+  <h3>{{$ctrl.message}}</h3>
+  <div class="login-form">
+    <form name="loginForm" class="login-form-container">
+      <div class="login-item">
+        <span class="login-item-label">Email:</span> 
+        <input
+          class="login-item-input"
+          ng-model="$ctrl.email"
+          type="email"
+          placeholder="Enter Email"
+          required>
+      </div>
+      <div class="login-item">
+        <span class="login-item-label">Password:</span>
+        <input
+          class="login-item-input"
+          ng-model="$ctrl.password"
+          type="password"
+          placeholder="Enter Password"
+          minlength="3"
+          required>
+      </div>
+      <div class="login-buttons">
+        <button
+          ng-click="$ctrl.login()" 
+          class="btn btn-primary"
+          ng-disabled="loginForm.$invalid">
+          Login
+        </button>
+      </div>
+    </form>
+  </div>

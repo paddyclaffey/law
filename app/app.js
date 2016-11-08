@@ -16,6 +16,9 @@ app.config(function($routeProvider) {
     .when("/answer", {
         template : "<answer><answer>"
     })
+    .when("/profile", {
+        template : "<profile><profile>"
+    })
     .otherwise({
         template : "<home><home>"
     });
