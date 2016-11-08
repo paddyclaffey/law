@@ -6,9 +6,6 @@ var gulp = require('gulp'),
 	  inject = require('gulp-inject'),
     sourcemaps = require('gulp-sourcemaps');
 
-gulp.task('build', ['js']);
-
-
 gulp.task('reload', function() {
 	gulp.src('app/src/index.html')
 	  .pipe(livereload());
